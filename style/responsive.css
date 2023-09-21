@@ -1,0 +1,64 @@
+@media screen and (max-width:1000px){
+    p{
+        font-size: .9rem;
+        line-height: 1.8rem;
+    }
+
+    .boxes{
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:825px){
+    .navbar{
+        display: none;
+    }
+    .title{
+        font-size: 1.6rem;
+        margin: 0.6rem 0 2.5rem;
+    }
+
+    #hero{
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+
+    .hero-left h3{
+        margin: 0 auto;
+    }
+    .hero-name{
+        font-size: 2.3rem;
+        margin-bottom: .5rem;
+    }
+    .hero-right{
+        order: -1;
+    }
+    .hero-right img{
+        width: 70%;
+    }
+    .hero-left{
+        margin-bottom: .5rem;
+        text-align: center;
+    }
+    .boxes{
+        gap: 1rem;
+    }
+    .contact-container{
+        grid-template-columns: 1fr;
+    }
+    .message-form input,
+    .message-form textarea,
+    .message-form button{
+        width: 80%;
+    }
+    .footer{
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .title{
+        font-size: 1.3rem;
+    }
+    
+}
